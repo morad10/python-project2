@@ -1,16 +1,17 @@
-# 🏕️ Python Adventure Game 🚀
+# 📝 Word Replacement Generator 🚀
 
 ## 📌 Project Overview
-This is a simple **text-based adventure game** built in Python. The game allows players to navigate through different choices in an interactive story. Each decision leads to a different outcome—some lead to **victory**, while others result in **defeat**. 
+This is a simple **text-based word replacement generator** built in Python. The script reads a story from a text file (`story.txt`), identifies placeholders within angle brackets (`< >`), and asks the user to provide words to replace them. The final story is then displayed with the user's inputs.
 
-## 🎮 How to Play
-1. The game starts by **asking for your name**.
-2. You will be presented with **different choices** (e.g., go left or right, swim or walk, talk to a stranger or ignore them).
-3. Your decisions **affect the outcome of the game**—choose wisely!
+## 🎮 How It Works
+1. The script **reads** a story from `story.txt`.
+2. It **finds** all words inside `< >` (e.g., `<noun>`, `<verb>`).
+3. The user is prompted to **enter a replacement** for each placeholder.
+4. The **final modified story is displayed**.
 
 ## 🛠 Installation & Setup
-To play this game on your computer:
+To use this project, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/morad10/Python-project.git
+   git clone https://github.com/your-username/Your-New-Repo.git
